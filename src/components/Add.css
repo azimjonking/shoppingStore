@@ -1,0 +1,65 @@
+.addProduct {
+  padding-top: 60px;
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addProduct form {
+  min-width: 576px;
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.addProduct form .form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.addProduct form .form-group label {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.addProduct form .form-group input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  outline: none;
+  font-size: 18px;
+}
+
+.addProduct form .form-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.addProduct form > button {
+  width: 60%;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  box-shadow: 2px 2px 4px black;
+  font-size: 16px;
+}
+
+.addProduct form > .add-btn {
+  background: blue;
+}
+
+.addProduct form > .clear-btn {
+  background: red;
+}

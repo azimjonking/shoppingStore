@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { Routes, Route, useLocation } from "react-router-dom";
+import "./App.css";
+import Header from "./components/Header";
+import Add from "./components/Add";
+import Products from "./components/Products";
+import Login from "./components/Login";
 
 function App() {
+  const location = useLocation();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {location.pathname !== "/login" && <Header />}
+      <Routes>
+        <Route path="/" element={<h1>Home</h1>} />
+        <Route path="/add" element={<Add />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
     </div>
   );
 }
