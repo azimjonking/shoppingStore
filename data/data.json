@@ -1,32 +1,25 @@
 {
   "products": [
     {
-      "url": "https://images.uzum.uz/clc3jfl6sfhgee0m73dg/original.jpg",
-      "title": "hp laptop",
-      "price": 200,
-      "discountPersentage": 10,
-      "id": 1
-    },
-    {
       "url": "https://olcha.uz/image/600x600/products/2021-01-16/sony-playstation-5-20734-0.jpeg",
-      "title": "Play Station 5",
-      "price": 250,
-      "discountPersentage": 15,
-      "id": 2
+      "title": "Play Station 3",
+      "price": 100,
+      "dicountPersentage": 15,
+      "id": "2"
     },
     {
       "url": "https://s3p.kattabozor.uz/ri/56527d15641001f9884b965c09657f00acae2d9d227d0877003cc46278a0b0e8_RL8h7k_640l.jpg",
       "title": "iPhone 13 pro",
       "price": 370,
-      "discountPersentage": 5,
-      "id": 3
+      "dicountPersentage": 5,
+      "id": "3"
     },
     {
       "url": "https://olcha.uz/image/700x700/products/2021-02-10/samsung-galaxy-s21-ultra-12256gb-phantonblack-21280-0.jpeg",
       "title": "Samsung s21 ultra",
       "price": 600,
-      "discountPersentage": 40,
-      "id": 4
+      "dicountPersentage": 40,
+      "id": "4"
     }
   ]
 }
